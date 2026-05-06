@@ -36,7 +36,7 @@ CONFIG_PATH = BASE_DIR / "config.json"
 def load_app_config() -> dict:
     default_config = {
         "YANDEX_PUBLIC_LINK_DEFAULT": "",
-        "YANDEX_API": "https://cloud-api.yandex.net/v1/disk",
+        "YANDEX_API": "",
     }
 
     if CONFIG_PATH.exists():
